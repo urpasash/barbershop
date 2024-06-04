@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="../js/burger.js"></script>
+</head>
+<body style="margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column;">
+    <header class="bg-dark text-white" style="height: 10vh;">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="../">
+                    <img src="../img/brb.png" alt="Эмблема" class="img-rounded" style="width: 30px;"> Barbershop
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="../">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../contacts">О нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../services">Услуги</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../masters">Мастера</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-primary" href="../auth">Вход</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container text-center my-5">
+        <h1>О нас</h1>
+        <img src="../img/brb_team.jpg" class="img-fluid rounded-circle mb-4" alt="Команда барбершопа" style="width: 350px;">
+        <p>Добро пожаловать! Мы - это не просто место, где вы можете подстричь волосы или сделать стрижку бороды. Мы - сообщество, где встречаются стиль, традиции и современность.</p>
+        <p>Наша команда состоит из опытных и талантливых барберов, для которых стрижка - это искусство. Мы тщательно подходим к каждому клиенту, уделяя внимание деталям и стремясь превзойти ожидания. Независимо от того, хотите ли вы классический вид или что-то более современное и дерзкое, у нас есть опыт, чтобы воплотить ваши идеи в реальность.</p>
+        <p>Мы создаем атмосферу, в которой вы чувствуете себя комфортно и расслабленно. У нас всегда звучит отличная музыка, а разговоры текут легко. Мы гордимся тем, что наши клиенты становятся частью нашей семьи и с нетерпением ждут каждой новой встречи. Предлагаем широкий спектр услуг: от классических мужских стрижек до оформления бороды и ухода за кожей. Наша цель - помочь вам выглядеть и чувствовать себя лучше. И мы делаем это с искренней заботой и уважением к вашим желаниям.</p>
+        <p>Заходите к нам, чтобы испытать атмосферу, где стиль, качество и удовольствие от общения соединяются в одном месте. Мы ждем вас!</p>
+    </section>
+    <section class="container my-5">
+        <h2 style = "text-align: center;">Контактная информация</h2>
+
+        <p class="text-left">Адрес: ул. Кремлевская, д. 18, Казань</p>
+        <p class="text-left">Телефон: +7 (495) 123-4567</p>
+        <p class="text-left">Email: info@barbershop.ru</p>
+        <p class="text-left">График работы: Пн-Пт: 10:00 - 20:00, Сб-Вс: 11:00 - 18:00</p>
+
+        <h2 style = "text-align: center;">Мы на карте</h2>
+        <a href="https://yandex.ru/maps/?um=constructor%3A02c6f880299fa941546bf9d13d83de7ff3cc0f1bdbd46194712cd4be7e3779c0&amp;source=constructorStatic" target="_blank">
+            <img src="../img/map.jpg" class="img-fluid" alt="" style="border: 0;" />
+        </a>
+    </section>
+    <footer class="bg-dark text-white text-center" style="height: 5vh;">
+        <div class="container">
+            <p>&copy; 2024 Барбершоп</p>
+        </div>
+    </footer>
+</body>
+</html>

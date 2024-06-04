@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="../js/burger.js"></script>
+</head>
+<body style="margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column;">
+    <header class="bg-dark text-white" style="height: 10vh;">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="../">
+                    <img src="../img/brb.png" alt="Эмблема" class="img-rounded" style="width: 30px;"> Barbershop
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="../">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../contacts">О нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../services">Услуги</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../masters">Мастера</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-primary" href="../auth">Вход</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+<section class="flex-fill d-flex flex-column justify-content: center; align-items: center">
+        <h1 class="text-center">Наши мастера</h1>
+        <div class=" flex: 1 row text-center" style="flex: 1; display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-4">
+                <img src="../img/1.jpg" class="img-fluid rounded-circle" alt="Алексей">
+                <h3>Алексей</h3>
+                <p>Специалист по стрижкам и уходу за бородой.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="../img/2.jpg" class="img-fluid rounded-circle" alt="Владимир">
+                <h3>Владимир</h3>
+                <p>Эксперт по бритью и укладке.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="../img/3.jpg" class="img-fluid rounded-circle" alt="Иван">
+                <h3>Иван</h3>
+                <p>Мастер массажа и укладки волос.</p>
+            </div>
+        </div>
+</section>
+    <footer class="bg-dark text-white text-center" style="height: 5vh;">
+        <div class="container">
+            <p>&copy; 2024 Барбершоп</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+

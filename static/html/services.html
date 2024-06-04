@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="../js/burger.js"></script>
+</head>
+<body style="margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column;">
+    <header class="bg-dark text-white" style="height: 10vh;">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="../">
+                    <img src="../img/brb.png" alt="Эмблема" class="img-rounded" style="width: 30px;"> Barbershop
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="../">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../contacts">О нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../services">Услуги</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../masters">Мастера</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-primary" href="../auth">Вход</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="container my-5">
+        <h2>Наши услуги</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../img/s1.jpg" class="img-fluid rounded" alt="Стрижка">
+            </div>
+            <div class="col-md-8">
+                <h2>Стрижка</h2>
+                <p>Цена: 500 руб.</p>
+                <p>Стрижка с учетом индивидуальных особенностей клиента, профессиональными инструментами. Мы гарантируем качественный результат.</p>
+            </div>
+        </div>
+    
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img src="../img/s2.jpg" class="img-fluid rounded" alt="Бритьё">
+            </div>
+            <div class="col-md-8">
+                <h2>Бритьё бритвой</h2>
+                <p>Цена: 700 руб.</p>
+                <p>Идеально гладкое бритьё с использованием высококачественных инструментов и средств для бритья.</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../img/s3.jpg" class="img-fluid rounded" alt="Уход за бородой">
+            </div>
+            <div class="col-md-8">
+                <h2>Уход за бородой</h2>
+                <p>Цена: 300 руб.</p>
+                <p>Профессиональный уход за бородой с использованием качественных средств и современных техник.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"> 
+                <img src="../img/s4.jpg" class="img-fluid rounded w-75" alt="Уход за лицом">
+            </div>
+            <div class="col-md-8">
+                <h2>Уход за лицом</h2>
+                <p>Цена: 600 руб.</p>
+                <p>Комплексный уход за кожей лица с использованием высококачественных средств. Мы обеспечиваем профессиональный уход, чтобы ваша кожа выглядела свежей и здоровой.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center" style="height: 5vh;">
+        <div class="container">
+            <p>&copy; 2024 Барбершоп</p>
+        </div>
+    </footer>
+</body>
+</html>
